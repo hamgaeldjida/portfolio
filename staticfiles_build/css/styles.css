@@ -105,6 +105,11 @@ section {
     background-size: cover;
 }
 
+.backgroundImgGenLight{
+    background-image: url("https://i.ibb.co/FkJwZFPZ/e63a4d3d-6cba-42bc-91f2-fcbd83b9edb1-Copie.png");
+    background-size: cover;
+}
+
 .controls .control {
     padding: 1rem;
     cursor: pointer;
