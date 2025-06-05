@@ -100,6 +100,11 @@ section {
     transform: translateY(-50%);
 }
 
+.backgroundImgGen{
+    background-image: url("https://i.ibb.co/pj7ZKkz6/a01541c8-e14e-4f46-8441-1eb2419220ab-Copie.png");
+    background-size: cover;
+}
+
 .controls .control {
     padding: 1rem;
     cursor: pointer;
@@ -711,6 +716,7 @@ section {
 }
 
 .main-btn {
+    z-index: 10;
     border-radius: 30px;
     color: inherit;
     font-weight: 600;
