@@ -1,3 +1,4 @@
+console.log("this is a test")
 (function() {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
