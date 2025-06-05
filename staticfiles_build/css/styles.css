@@ -837,7 +837,8 @@ section {
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
-        background-color: var(--color-grey-5);
+        backdrop-filter: blur(2px);
+        border-radius: 30px;
     }
     .controls .control {
         margin: 1rem 0.3rem;
