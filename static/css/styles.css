@@ -101,12 +101,12 @@ section {
 }
 
 .backgroundImgGen{
-    background-image: url("https://i.ibb.co/pj7ZKkz6/a01541c8-e14e-4f46-8441-1eb2419220ab-Copie.png");
+    background-image: url("https://raw.githubusercontent.com/hamgaeldjida/portfolio/refs/heads/master/templates/a01541c8-e14e-4f46-8441-1eb2419220ab%20-%20Copie.png");
     background-size: cover;
 }
 
-.backgroundImgGenLight{
-    background-image: url("https://i.ibb.co/FkJwZFPZ/e63a4d3d-6cba-42bc-91f2-fcbd83b9edb1-Copie.png");
+.light-mode .backgroundImgGen{
+    background-image: url("https://raw.githubusercontent.com/hamgaeldjida/portfolio/refs/heads/master/templates/e63a4d3d-6cba-42bc-91f2-fcbd83b9edb1%20-%20Copie.png");
     background-size: cover;
 }
 
