@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 # delete old static files
 echo "Deleting old static files..."
-rm -rf staticfiles  # adjust path if needed (e.g., 'static' or 'app_name/static')
+rm -rf staticfiles_build  # adjust path if needed (e.g., 'static' or 'app_name/static')
 
 # collect static files using the Python interpreter from venv
 echo "Collecting static files..."
