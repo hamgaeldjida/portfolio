@@ -1,0 +1,64 @@
+// Variables
+$primary-color: #1a73e8;
+$text-color: #5f6368;
+$background-color: #f0f2f5;
+$white: #ffffff;
+
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin card-style {
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+// Base styles
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: $background-color;
+    @include flex-center;
+}
+
+.container {
+    @include card-style;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    color: $primary-color;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+p {
+    color: $text-color;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+// Animations
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeIn 0.5s ease-out;
+} 
