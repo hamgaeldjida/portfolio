@@ -223,7 +223,7 @@ section {
 }
 
 .header-content .right-header .name span {
-    color: #818081;
+    color: var(--color-secondary);
 }
 
 .header-content .right-header p {
